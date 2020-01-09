@@ -18,7 +18,7 @@ This implementation aims at being very efficient, at the cost of difficult corne
 
 ## Installation
 
-    yarn add tibetan-sort-js --save
+    `pip install tibetan-sort # To Do`
 
 ## API
 
