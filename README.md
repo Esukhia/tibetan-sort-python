@@ -1,6 +1,6 @@
-# Python port of BDRC's JS Library to sort Tibetan 
+# Python port of BDRC's JS Library to sort Tibetan
 
-After exploring different options for [tibetan collation](https://github.com/eroux/tibetan-collation) in JavaScript, there seems to be no viable option to sort Unicode Tibetan strings. This library hopes to fullfill this purpose in an elegant, modern and efficient manner.
+This is a Python port of [tibetan-sort-js](https://github.com/buda-base/tibetan-sort-js). After exploring different options for [tibetan collation](https://github.com/eroux/tibetan-collation) in JavaScript, there seems to be no viable option to sort Unicode Tibetan strings. This library hopes to fullfill this purpose in an elegant, modern and efficient manner.
 
 ### State of the art
 
@@ -43,11 +43,17 @@ Compares two strings in [EWTS](http://www.thlib.org/reference/transliteration/#!
 
 ## TODO
 
-- add an option to normalize strings?
+- translate tests
+- publish on PyPi
 
 ## Release history
 
 See [change log](CHANGELOG.md).
+
+## Credits
+
+- JS code by [Elie Roux](https://github.com/eroux)
+- ported to Python by [尤志中]()
 
 ## License
 
