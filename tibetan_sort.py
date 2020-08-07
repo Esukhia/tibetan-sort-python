@@ -1,4 +1,4 @@
-# coding=utf8
+# coding: utf8
 from functools import cmp_to_key
 
 

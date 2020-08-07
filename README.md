@@ -4,7 +4,7 @@ This is a Python port of [tibetan-sort-js](https://github.com/buda-base/tibetan-
 
 ## Installation
 
-    `pip install tibetan_sort # To Do`
+    `pip3 install tibetan_sort`
 
 ## API
 
@@ -31,14 +31,24 @@ with non-Tibetan strings.
 
 Returns **number** 0 if equivalent, 1 if a > b, -1 if a &lt; b
 
-## TODO
-
-- translate tests
-- publish on PyPi
-
 ## Release history
 
 See [change log](CHANGELOG.md).
+
+## Maintainance
+
+Build the source dist:
+
+```bash
+rm -rf dist/
+python3 setup.py clean sdist
+```
+
+and upload on twine (version >= `1.11.0`) with:
+
+```bash
+python3 -m twine upload dist/*
+```
 
 ## Credits
 
