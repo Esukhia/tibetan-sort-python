@@ -1,7 +1,7 @@
 #
 # The tests have been copied from [Élie Roux's repo](https://github.com/eroux/tibetan-collation/blob/master/implementations/Unicode/test.py)
 #
-from tibetan_sort import TibetanSort
+from tibetan_sort.tibetan_sort import TibetanSort
 
 c = TibetanSort()
 

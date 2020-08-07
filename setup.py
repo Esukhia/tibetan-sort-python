@@ -19,7 +19,7 @@ def read(fname):
 
 setuptools.setup(
     name="tibetan_sort",
-    version="0.1",
+    version="0.2.0",  # also modify tibetan_sort/__init__.py
     author="Esukhia development team",
     author_email="esukhiadev@gmail.com",
     description="Tibetan Sorting Tool",
@@ -43,9 +43,5 @@ setuptools.setup(
         "License :: OSI Approved :: Apache Software License",
         "Natural Language :: Tibetan",
     ],
-    package_data={
-        "tibetan_sort": []
-    },
     python_requires=">=3.6",
-    install_requires=[],
 )
